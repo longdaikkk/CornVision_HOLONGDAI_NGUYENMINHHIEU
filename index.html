@@ -16,11 +16,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Style -->
     <link rel="stylesheet" href="./css/Style.css">
 </head>
 
 <body>
+    <section id="search__text">
+        <button id="close__btn" class="btn btn-success animate__animated animate__rotateIn"><i class="fa-solid fa-xmark"></i></button>
+        <input id="type__btn" class="animate__animated  animate__fadeInRight" type="text" placeholder="Start Typing">
+    </section>
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -70,7 +76,7 @@
                     </ul>
                 </div>
                 <div class="dark__light ml-auto">
-                    <i class="fa-solid fa-magnifying-glass rounded-circle"></i>
+                    <button id="btn__search" class="btn btn-success"><i id="search__icon" class="fa-solid fa-magnifying-glass rounded-circle"></i></button>
                     <i class="fa-solid fa-moon"></i>
                 </div>
             </nav>
@@ -135,7 +141,7 @@
                     <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-        </div>
+        
         <div class="shape">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280" fill="white">
                 <path fill-opacity="1">
@@ -145,6 +151,7 @@
                 </path>
             </svg>
         </div>
+    </div>
     </section>
 
     <!-- About Us -->
@@ -255,6 +262,7 @@
             });
         });
     </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>

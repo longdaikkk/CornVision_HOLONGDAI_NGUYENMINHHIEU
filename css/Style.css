@@ -54,8 +54,16 @@ header.sticky .collapse .nav-link, header.sticky .collapse .nav-item .dropdown b
     color: #3f3a64;
 }
 
-header.sticky .dark__light i:last-of-type{
+header.sticky .dark__light>i{
     color: #3f3a64;
+}
+
+header.sticky .nav-item:hover .dropdown button{
+    color: black !important;
+}
+
+header.sticky .nav-item:hover .nav-link{
+    color: black;
 }
 
 .navbar {
@@ -107,52 +115,87 @@ span {
 
 .dropdown-menu {
     position: relative;
-    background-color: black;
+    background-color: white;
     top: 40px;
     left: -50px;
+    border: none;
+    box-shadow: -2px -2px 20px 1px rgba(0, 0, 0, 0.13);
 }
 
 .dropdown-menu .dropdown-item {
-    color: rgb(183, 181, 181);
-    background-color: black;
+    color: #3f3a64;
+    background-color: white;
     transition: all 0.5s;
 }
 
 .dropdown-menu .dropdown-item:hover {
-    color: white;
+    color: black;
 }
 
 .dropdown-menu::after {
     content: "";
-    background-color: black;
+    background-color: white;
     width: 10px;
     height: 10px;
     position: absolute;
-    top: -6px;
+    top: -5px;
     left: 50%;
     transform: translateX(-50%) rotateZ(45deg);
+    box-shadow: -2px -2px 20px 1px rgba(0, 0, 0, 0.13);
 }
 
-.dark__light i:first-of-type {
-    background-color: green;
-    width: 40px;
-    height: 40px;
-    color: white;
-    line-height: 40px;
-    text-align: center;
-    margin-right: 10px;
+.dark__light button{
+    border-radius: 50%;
+    border: none;
+}
+
+.dark__light button:hover{
+    background-color: #009f4d;
+    border: none;
 }
 
 /* search button */
-.dropdown-menu{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 11;
+.search__style{
+    transform: scale(1000);
+    transition: all 2s;
+    z-index: 100;
 }
-.search{
+
+.search_style_in{
+    transform: scale(1);
+    transition: all 0.5s;
+    z-index: 100;
+}
+
+#search__text{
+    position: fixed;
+    z-index: 15;
     width: 100%;
     height: 100vh;
+    margin: auto;
+    display: none;
+    transition: all 3s;
+}
+
+#search__text button{
+    border: none;
+    background-color: #009f4d00;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    font-size: 40px;
+}
+
+#search__text input{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 30px;
+    background-color: #28a74600;
+    border: none;
+    color: white;
+    outline: 0;
+    transition: all 1s;
 }
 
 /* carousel */
@@ -199,13 +242,15 @@ span {
     position: absolute;
     height: 323.58px;
     width: 100%;
-    bottom: -50px;
+    bottom: 0px;
 }
 
 #carousel .shape svg{
     overflow: hidden;
     vertical-align: middle;
     width: 100%;
+    position: absolute;
+    bottom: 0px;
     
 }
 
