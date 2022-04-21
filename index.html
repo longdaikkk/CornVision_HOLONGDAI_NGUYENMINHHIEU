@@ -7,8 +7,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;1,400&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,6 +19,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- owl -->
+    <link rel="stylesheet" href="./libs/owl/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owl/owlcarousel/assets/owl.theme.default.css">
     <!-- Style -->
     <link rel="stylesheet" href="./css/Style.css">
 </head>
@@ -32,9 +36,9 @@
         <div class="container">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="#">
-                    <h1><i class="fa-solid fa-align-right text-success"></i>
-                        Corp Vision</h1>
+                <a class="navbar-brand" href="./index.html">
+                    <h2><i class="fa-solid fa-align-right text-success"></i>
+                        Corp Vision</h2>
                     <span>Vision to your Future</span>
                 </a>
 
@@ -48,13 +52,13 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav nav_ul">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">HOME</a>
+                            <a class="nav-link active" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="https://wp.w3layouts.com/corpvision/about-page/">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES</a>
+                            <a class="nav-link" href="https://wp.w3layouts.com/corpvision/services-page/">SERVICES</a>
                         </li>
                         <li class="nav-item">
                             <!-- <a class="nav-link" href="#">PAGES -->
@@ -63,16 +67,16 @@
                                     PAGES
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">BLOG POSTS</a>
-                                    <a class="dropdown-item" href="#">404 PAGE</a>
-                                    <a class="dropdown-item" href="#">LANDING PAGE</a>
-                                    <a class="dropdown-item" href="#">ELEMENTS PAGE</a>
+                                    <a class="dropdown-item" href="https://wp.w3layouts.com/corpvision/blog-posts/">BLOG POSTS</a>
+                                    <a class="dropdown-item" href="https://wp.w3layouts.com/corpvision/404-page/">404 PAGE</a>
+                                    <a class="dropdown-item" href="https://wp.w3layouts.com/corpvision/single-landing-page/">LANDING PAGE</a>
+                                    <a class="dropdown-item" href="https://wp.w3layouts.com/corpvision/elements-page/">ELEMENTS PAGE</a>
                                 </div>
                             </div>
                             <!-- </a> -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="https://wp.w3layouts.com/corpvision/contact-page/">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -88,47 +92,47 @@
 
     <!-- carousel -->
     <section id="carousel">
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel" data-ride="carousel">
 
             <!-- The slideshow -->
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active animate__animated animate__fadeIn">
                     <div class="carousel__fillter">
                         <div class="carousel-caption container">
-                            <h1>We will solve your issues our vision to your future</h1>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
+                            <h1 class="animate__animated animate__flipInX delay">We will solve your issues our vision to your future</h1>
+                            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
                                 magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-                            <button type="button" class="btn btn-success">Learn More</button>
+                            <button type="button" class="btn btn-success animate__animated animate__fadeInUp delay">Learn More</button>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item animate__animated animate__fadeIn">
                     <div class="carousel__fillter">
                         <div class="carousel-caption container">
-                            <h1>Embracing success do our best, need best advice</h1>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
+                            <h1 class="animate__animated animate__fadeInDown delay">Embracing success do our best, need best advice</h1>
+                            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
                                 magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-                            <button type="button" class="btn btn-success">Learn More</button>
+                            <button type="button" class="btn btn-success animate__animated animate__fadeInDown delay">Get Started</button>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item animate__animated animate__fadeIn">
                     <div class="carousel__fillter">
                         <div class="carousel-caption container">
-                            <h1>Digital transformation driven by technology</h1>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
+                            <h1 class="animate__animated animate__fadeInUp delay">Digital transformation driven by technology</h1>
+                            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
                                 magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-                            <button type="button" class="btn btn-success">Learn More</button>
+                            <button type="button" class="btn btn-success animate__animated animate__fadeInDown delay">Learn More</button>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item animate__animated animate__fadeIn">
                     <div class="carousel__fillter">
                         <div class="carousel-caption container">
-                            <h1>For those who believe in leaving a mark</h1>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
+                            <h1 class="animate__animated animate__flipInX delay">For those who believe in leaving a mark</h1>
+                            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore <br />
                                 magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-                            <button type="button" class="btn btn-success">Learn More</button>
+                            <button type="button" class="btn btn-success animate__animated animate__fadeInUp delay">Contact Now</button>
                         </div>
                     </div>
                 </div>
@@ -166,9 +170,9 @@
                     <p class="text__gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis expedita
                         dicta a accusantium non aut reprehenderit, cum voluptatum amet magnam numquam, eaque,
                         perferendis voluptas in porro sit ipsum commodi facilis.</p>
-                    <p><i class="fa-solid fa-circle-check"></i> UI/UX Design and Development</p>
-                    <p><i class="fa-solid fa-circle-check"></i> Branding Design and Identity</p>
-                    <p><i class="fa-solid fa-circle-check"></i> Mobile App Design and Development</p>
+                    <p class="list"><i class="fa-solid fa-circle-check"></i> UI/UX Design and Development</p>
+                    <p class="list"><i class="fa-solid fa-circle-check"></i> Branding Design and Identity</p>
+                    <p class="list"><i class="fa-solid fa-circle-check"></i> Mobile App Design and Development</p>
                 </div>
                 <div class="About__img col-6">
                     <div class="row">
@@ -418,9 +422,215 @@
         </div>
     </section>
 
+    <!-- Reviews -->
+    <section id="Reviews">
+        <div class="container py-5">
+            <div class="Reviews__text title text-center">
+                <span>HAPPY CLIENTS FEEDBACK</span>
+                <h1>Reviews and Testimonials</h1>
+            </div>
+            <div class="owl-carousel text-center">
+                <div class="Reviews_item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero, autem illo expedita ipsum
+                        atque recusandae sunt similique numquam beatae qui laborum error. Porro dolorum, sunt quis neque
+                        nihil veritatis!</p>
+                    <div class="item_content  my-5">
+                        <div class="item_img">
+                            <img class="rounded-circle" src="./img/team-1.jpg" alt="">
+                        </div>
+                        <div class="item_title title text-left">
+                            <h5>John wilson</h5>
+                            <span>Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="Reviews_item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero, autem illo expedita ipsum
+                        atque recusandae sunt similique numquam beatae qui laborum error. Porro dolorum, sunt quis neque
+                        nihil veritatis!</p>
+                    <div class="item_content my-5">
+                        <div class="item_img">
+                            <img class="rounded-circle" src="./img/team-2.jpg" alt="">
+                        </div>
+                        <div class="item_title title text-left">
+                            <h5>Julia sakura</h5>
+                            <span>Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="Reviews_item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero, autem illo expedita ipsum
+                        atque recusandae sunt similique numquam beatae qui laborum error. Porro dolorum, sunt quis neque
+                        nihil veritatis!</p>
+                    <div class="item_content my-5">
+                        <div class="item_img">
+                            <img class="rounded-circle" src="./img/team-3.jpg" alt="">
+                        </div>
+                        <div class="item_title title text-left">
+                            <h5>Roy Linderson</h5>
+                            <span>Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="Reviews_item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vero, autem illo expedita ipsum
+                        atque recusandae sunt similique numquam beatae qui laborum error. Porro dolorum, sunt quis neque
+                        nihil veritatis!</p>
+                    <div class="item_content my-5">
+                        <div class="item_img">
+                            <img class="rounded-circle" src="./img/team-4.jpg" alt="">
+                        </div>
+                        <div class="item_title title text-left">
+                            <h5>Smith Johnson</h5>
+                            <span>Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- NEWS -->
+    <section id="news">
+        <div class="container py-5">
+            <div class="Reviews__text title text-center">
+                <span>LATEST NEWS</span>
+                <h1>Our insight and articles</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./img/blog1.jpg" alt="Card image">
+                        </div>
+                        <div class="news__card card-body text-left">
+                            <p>Startup Business</p>
+                            <h4>Hello word!</h4>
+                            <hr />
+                            <div class="card__foot d-flex justify-content-between align-item-center">
+                                <div class="foot_img">
+                                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">
+                                        <img class="img-fluid" src="./img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt="">
+                                    </a>
+                                    <span>by</span>
+                                    <a href="https://wp.w3layouts.com/corpvision/" class="text-dark">W3Layouts</a>
+                                </div>
+                                <p class="my-auto">April 1, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__img ">
+                            <img class="card-img-top" src="./img/blog2.jpg" alt="Card image">
+                        </div>
+                        <div class="card-body text-left">
+                            <p>Startup Business</p>
+                            <h4>Companies in NY launched a joint project on a three-tower hall</h4>
+                            <hr />
+                            <div class="card__foot d-flex justify-content-between align-item-center">
+                                <div class="foot_img">
+                                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">
+                                        <img class="img-fluid" src="./img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt="">
+                                    </a>
+                                    <span>by</span>
+                                    <a href="https://wp.w3layouts.com/corpvision/" class="text-dark">W3Layouts</a>
+                                </div>
+                                <p class="my-auto">April 1, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card__img">
+                            <img class="card-img-top" src="./img/blog3.jpg" alt="Card image">
+                        </div>
+                        <div class="card-body text-left">
+                            <p>Marketing Strategy</p>
+                            <h4>Design breakthrough upgrades the product and ready to launch</h4>
+                            <hr />
+                            <div class="card__foot d-flex justify-content-between align-item-center">
+                                <div class="foot_img">
+                                    <a href="https://wp.w3layouts.com/corpvision/author/w3layouts/">
+                                        <img class="img-fluid" src="./img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt="">
+                                    </a>
+                                    <span>by</span>
+                                    <a href="https://wp.w3layouts.com/corpvision/" class="text-dark">W3Layouts</a>
+                                </div>
+                                <p class="my-auto">April 1, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- email -->
+    <section id = "email">
+        <div class="container py-5">
+            <div class="email__content text-center">
+                <h2 class="text-light">Let’s find out how to work together</h2>
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. </br>
+                    Lorem ipsum dolor sit amet elit.</p>
+                <div class="email__submit d-flex justify-content-center align-items-center my-5">
+                    <div class="email__icon text-center p-2">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <input type="email" class="px-5 p-2 input__text required" placeholder="Your Email Address"/>
+                    <button class="btn__submit btn btn-success py-2">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer__info">
+            </div>
+        </div>
+        <hr noshade/>
+    </section>
 
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-3 logo">
+                    <a class="navbar-brand" href="#">
+                        <h3><i class="fa-solid fa-align-right text-success"></i>
+                            Corp Vision</h3>
+                        <p>Vision to your Future</p>
+                    </a>
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="col-4">
+                    <h4>CONTACT INFO</h4>
+                    <p>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+                    <p>Phone Number : +1(21) 234 4567</p>
+                    <p>Email : <a href="" class="text-muted link">info@example.com</a></p>
+                    <p>Support : <a href="" class="text-muted link">info@support.com</a></p>
+                </div>
+                <div class="col-3">
+                    <h4>CATEGORIES</h4>
+                    <p>Marketing Strategy</p>
+                    <p>Startup Business</p>
+                    <p>Web development</p>
+                </div>
+                <div class="col-2">
+                    <h4>META</h4>
+                    <p>Log in</p>
+                    <p>Entries feed</p>
+                    <p>Comments feed</p>
+                    <p>WordPress.org</p>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="copyright text-center">
+            <p>© 2022 Corp Vision All Rights Reserved | WordPress Theme by <a href="https://w3layouts.com/" class="text-success">W3Layouts.</a></p>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
@@ -428,6 +638,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -437,6 +648,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl -->
+    <script src="./libs/owl/owlcarousel/owl.carousel.min.js"></script>
+    <!-- sticky header -->
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -449,6 +663,17 @@
         });
     </script>
     <script src="./main.js"></script>
+    <!-- owl -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            // nav: true,
+            dots: true,
+            items: 1,
+            center: true,
+        })
+    </script>
 </body>
 
 </html>
