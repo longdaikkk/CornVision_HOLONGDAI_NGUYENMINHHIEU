@@ -858,7 +858,29 @@ footer .list_light p:hover {
     color: white;
 }
 
+.backtotop{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #009f4d;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 1;
+    visibility: hidden;
+    border-radius: 50%;
+    text-align: center;
+}
 
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top--fade-out {
+    opacity: 1;
+}
 
 /* Responsive */
 @media screen and (max-width: 1023px) {
