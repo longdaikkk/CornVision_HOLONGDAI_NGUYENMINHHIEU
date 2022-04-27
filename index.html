@@ -30,7 +30,8 @@
     <section id="search__text">
         <button id="close__btn" class="btn btn-success animate__animated animate__rotateIn"><i
                 class="fa-solid fa-xmark"></i></button>
-        <input id="type__btn" class="animate__animated  animate__fadeInRight" type="text" placeholder="Start Typing">
+        <input id="type__btn" class="animate__animated  animate__fadeInRight" type="search" placeholder="Start Typing">
+        <a href=""><i class="fa-solid fa-moon fa-2x text-light"></i></a>
     </section>
     <header>
         <div class="container">
@@ -43,9 +44,10 @@
                 </a>
 
                 <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                <button id="bars__toggler" class="navbar-toggler ml-auto btn__collapse" type="button" data-toggle="collapse"
                     data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><i  id="bars" class="fa-solid fa-bars text-light"></i></span>
+                    
                 </button>
 
                 <!-- Navbar links -->
@@ -79,11 +81,11 @@
                             <a class="nav-link" href="https://wp.w3layouts.com/corpvision/contact-page/">CONTACT</a>
                         </li>
                     </ul>
-                </div>
-                <div class="dark__light ml-auto">
-                    <button id="btn__search" class="btn btn-success"><i id="search__icon"
-                            class="fa-solid fa-magnifying-glass rounded-circle"></i></button>
-                    <i class="fa-solid fa-moon"></i>
+                    <div class="dark__light ml-auto">
+                        <button id="btn__search" class="btn btn-success"><i id="search__icon"
+                                class="fa-solid fa-magnifying-glass rounded-circle"></i></button>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -92,8 +94,8 @@
 
     <!-- carousel -->
     <section id="carousel">
-        <div id="demo" class="carousel" data-ride="carousel">
-
+        <div id="demo" class="carousel">
+        <!-- <div id="demo" class="carousel" data-ride="carousel"> -->
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active animate__animated animate__fadeIn">
@@ -164,7 +166,7 @@
     <section id="About">
         <div class="container">
             <div class="row">
-                <div class="About__text title col-6">
+                <div class="About__text title col-lg-6 col-md-12">
                     <span>ABOUT US</span>
                     <h1>We make the best strategies for you, Enhancing your success</h1>
                     <p class="text__gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis expedita
@@ -174,7 +176,7 @@
                     <p class="list"><i class="fa-solid fa-circle-check"></i> Branding Design and Identity</p>
                     <p class="list"><i class="fa-solid fa-circle-check"></i> Mobile App Design and Development</p>
                 </div>
-                <div class="About__img col-6">
+                <div class="About__img col-lg-6 col-md-12">
                     <div class="row">
                         <div class="About__item col-6">
                             <img src="./img/a.jpg" alt="">
@@ -193,16 +195,16 @@
     <section id="Creative">
         <div class="container">
             <div class="row">
-                <div class="Creative__text title col-6">
+                <div class="Creative__text title col-lg-6 col-md-12">
                     <span>EVERY DAY BRINGS NEW CHALLENGES</span>
                     <h1>Creative agency focused on vision, product and people</h1>
                     <p class="text__gray">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
                         lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet
                         laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
-                    <button type="button" class="btn btn-success">Discover More</button>
+                    <a href="#About" class="btn btn-success">Discover More</a>
                 </div>
-                <div class="Creative__thumb col-6">
-                    <div class="row ">
+                <div class="Creative__thumb col-lg-6 col-md-12">
+                    <div class="row">
                         <div class="Creative__item col-6 text-center">
                             <div class="Creative__item__content">
                                 <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/icon1.png"
@@ -234,7 +236,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -244,8 +245,8 @@
             <div class="Service__text title text-center">
                 <h1>Always there for your care, our Services</h1>
             </div>
-            <div class="row">
-                <div class="card col-4">
+            <div class="row justify-content-center">
+                <div class="card col-lg-4 col-md-6">
                     <div class="card__img">
                         <img class="card-img-top" src="./img/s1.jpg" alt="Card image">
                         <h4 class="card-title">Work Expertise</h4>
@@ -255,7 +256,7 @@
                         <a href="#">Learn More</a>
                     </div>
                 </div>
-                <div class="card col-4">
+                <div class="card col-lg-4 col-md-6">
                     <div class="card__img">
                         <img class="card-img-top" src="./img/s2.jpg" alt="Card image">
                         <h4 class="card-title">Product Development</h4>
@@ -265,7 +266,7 @@
                         <a href="#">Learn More</a>
                     </div>
                 </div>
-                <div class="card col-4">
+                <div class="card col-lg-4 col-md-6">
                     <div class="card__img">
                         <img class="card-img-top" src="./img/s3.jpg" alt="Card image">
                         <h4 class="card-title">Software Development</h4>
@@ -286,7 +287,7 @@
                 <h1>Successful projects we've done</h1>
             </div>
             <div class="row">
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c1.jpg"
@@ -297,7 +298,7 @@
                         <p>Quisque ut lectus, eros et, sed commodo risus</p>
                     </div>
                 </div>
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c2.jpg"
@@ -308,7 +309,7 @@
                         <p>Quisque ut lectus, eros et, sed commodo risus</p>
                     </div>
                 </div>
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c3.jpg"
@@ -319,7 +320,7 @@
                         <p>Quisque ut lectus, eros et, sed commodo risus</p>
                     </div>
                 </div>
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c4.jpg"
@@ -330,7 +331,7 @@
                         <p>Quisque ut lectus, eros et, sed commodo risus</p>
                     </div>
                 </div>
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c5.jpg"
@@ -341,7 +342,7 @@
                         <p>Quisque ut lectus, eros et, sed commodo risus</p>
                     </div>
                 </div>
-                <div class="Gallery__thumb col-4">
+                <div class="Gallery__thumb col-lg-4 col-md-6">
                     <div class="Gallery__img">
                         <img class="img-fluid"
                             src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c6.jpg"
@@ -354,21 +355,20 @@
                 </div>
             </div>
             <hr noshade />
-            <div class="row text-center">
-                <div class="col-1"></div>
-                <div class="col-2">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-2 col-md-3 col-4">
                     <img class="img-fluid" src="./img/brand1.png" alt="" srcset="">
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-4">
                     <img class="img-fluid" src="./img/brand3.png" alt="" srcset="">
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-4">
                     <img class="img-fluid" src="./img/brand4.png" alt="" srcset="">
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-4">
                     <img class="img-fluid" src="./img/brand5.png" alt="" srcset="">
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-md-3 col-4">
                     <img class="img-fluid" src="./img/brand6.png" alt="" srcset="">
                 </div>
             </div>
@@ -379,10 +379,10 @@
     <section id="Success">
         <div class="container">
             <div class="row">
-                <div class="Success__img col-6">
+                <div class="Success__img col-lg-6 col-md-12">
                     <img class="img-fluid" src="./img/about.jpg" alt="" srcset="">
                 </div>
-                <div class="Success__text title col-6">
+                <div class="Success__text title col-lg-6 col-md-12">
                     <span>YOUR SUCCESS IS OUR SUCCESS</span>
                     <h1>Web design, marketing & SEO solutions that get results</h1>
                     <div class="progress__item">
@@ -497,8 +497,8 @@
                 <span>LATEST NEWS</span>
                 <h1>Our insight and articles</h1>
             </div>
-            <div class="row">
-                <div class="col-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <div class="card__img">
                             <img class="card-img-top" src="./img/blog1.jpg" alt="Card image">
@@ -520,7 +520,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <div class="card__img ">
                             <img class="card-img-top" src="./img/blog2.jpg" alt="Card image">
@@ -542,7 +542,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card">
                         <div class="card__img">
                             <img class="card-img-top" src="./img/blog3.jpg" alt="Card image">
@@ -592,7 +592,7 @@
     <footer>
         <div class="container py-5">
             <div class="row">
-                <div class="col-3 logo">
+                <div class="col-lg-3 col-md-6 logo mt-3">
                     <a class="navbar-brand" href="#">
                         <h3><i class="fa-solid fa-align-right text-success"></i>
                             Corp Vision</h3>
@@ -604,20 +604,20 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-linkedin-in"></i>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 mt-3">
                     <h4>CONTACT INFO</h4>
                     <p>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
                     <p>Phone Number : +1(21) 234 4567</p>
                     <p>Email : <a href="" class="text-muted link">info@example.com</a></p>
                     <p>Support : <a href="" class="text-muted link">info@support.com</a></p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-6 list_light mt-3">
                     <h4>CATEGORIES</h4>
                     <p>Marketing Strategy</p>
                     <p>Startup Business</p>
                     <p>Web development</p>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 col-6  list_light mt-3">
                     <h4>META</h4>
                     <p>Log in</p>
                     <p>Entries feed</p>
