@@ -62,7 +62,7 @@ header.sticky .collapse .nav-item .dropdown button {
     color: #3f3a64;
 }
 
-header.sticky .dark__light>i {
+header.sticky .dark__light>a {
     color: #3f3a64;
 }
 
@@ -175,6 +175,11 @@ span {
 .dark__light button:hover {
     background-color: #009f4d;
     border: none;
+}
+
+.dark__light a{
+    text-decoration: none;
+    color: white;
 }
 
 .dark__light {
